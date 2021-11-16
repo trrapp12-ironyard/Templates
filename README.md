@@ -42,7 +42,13 @@ resource for different code templates
 
 ```
 
+# React
+
 ### Adding React.JS to it (development)
+
+
+this source comes from the [React Docs](https://reactjs.org/docs/add-react-to-a-website.html).
+
 
 ```html 
 <!--these first two scripts add the development version of react 
@@ -52,10 +58,6 @@ resource for different code templates
   <!-- replace the "like_button.js" with the file name of the JS file where your React is written. -->
   <script src="like_button.js"></script>
 ```
-
-# React
-
-this source comes from the [React Docs](https://reactjs.org/docs/add-react-to-a-website.html).
 
 ### Adding React (production)
 
