@@ -88,6 +88,14 @@ resource for different code templates
 
 ```
 
+### Emphasized Text
+
+```html
+<p>The water is <em>very hot</em>.</p>
+
+<p>Water droplets collecting on surfaces is called <strong>condensation</strong>.</p>
+```
+
 The recognized styling convention for abbreviations is a dotted underline, and it is unwise to significantly deviate from this. For more on abbreviations, 
 
 ### Links
@@ -113,4 +121,166 @@ Screen reader users don't care about any of this — they are happy with the con
 On the other hand, you shouldn't use visibility:hidden or display:none, because they do hide content from screen readers. Unless of course, there is a good reason why you want this content to be hidden from screen readers.
 
 
+### Accessiblity checklist
+*from [ADA Best Practices Tool Kit for State and Local Governments, Chapter 5 Addendum: Title II Checklist](https://www.ada.gov/pcatoolkit/chap5chklist.htm)
+
+[  ] Does the top of each page with navigation links have a “skip navigation” link? (This feature directs screen readers to bypass the row of navigation links and start at the webpage content, thus enabling people who use screen readers to avoid having to listen to all the links each time they move to a new page.)
+
+2.    Do all links have a text description that can be read by a screen reader (not just a graphic or “click here”)?
+   Yes
+
+   No
+3.   Do all of the photographs, maps, graphics and other images on the website currently have HTML tags (such as an “alt” tag or a long description tag) with text equivalents of the material being visually conveyed?
+   Yes
+
+   No
+4.   Are all of the documents posted on your website available in HTML or another text-based format (for example, rich text format (RTF) or word processing format), even if you are also providing them in another format, such as Portable Document Format (PDF)?
+
+   Yes
+
+   No
+5.    If your website has online forms, do HTML tags describe all of the controls (including all text fields, check boxes, drop-down lists, and buttons) that people can use in order to complete and submit the forms?
+
+   Yes
+
+   No
+
+   N/A
+6.    If your website has online forms, does the default setting in drop-down lists describe the information being requested instead of displaying a response option (e.g., “your age” instead of “18 - 21”)?
+
+   Yes
+
+   No
+
+   N/A
+7.   If a webpage has data charts or tables, is HTML used to associate all data cells with column and row identifiers?
+
+   Yes
+
+   No
+
+   N/A
+8.    Do all video files on your website have audio descriptions of what is being displayed to provide access to visually conveyed information for people who are blind or have low vision?
+
+   Yes
+
+   No
+
+   N/A
+9.    Do all video files on your website have written captions of spoken communication synchronized with the action to provide access to people who are deaf or hard of hearing?
+
+   Yes
+
+   No
+
+   N/A
+10.    Do all audio files on your website have written captions of spoken communication synchronized with the action to provide access to people who are deaf or hard of hearing?
+
+   Yes
+
+   No
+
+   N/A
+11.    Have all webpages been designed so they can be viewed using visitors’ web browser and operating system settings for color and font?
+
+   Yes
+
+   No
+
+Website Accessibility Policy and Procedures
+
+This section will help you identify potential problems with the ongoing process of
+ensuring website accessibility
+
+12.    Do you have a written policy on website accessibility?
+
+   Yes
+
+   No
+
+13.    Is the website accessibility policy posted on your website in a place where it can be easily located?
+
+   Yes
+
+   No
+
+   N/A
+
+14.    Have procedures been developed to ensure that content is not added to your website until it has been made accessible?
+
+   Yes
+
+   No
+
+15.    Does the website manager check the HTML of all new webpages to confirm accessibility before the pages are posted?
+
+   Yes
+
+   No
+
+16.    When documents are added to your website in PDF format, are text-based versions of the documents (e.g., HTML, RTF, or word processing format) added at the same time as the PDF versions?
+
+   Yes
+
+   No
+
+   N/A
+17.    Have in-house staff and contractors received information about the website accessibility policy and procedures to ensure website accessibility?
+
+   Yes
+
+   No
+
+   N/A
+
+18.   Have in-house and contractor staff received appropriate training on how to ensure the accessibility of your website?
+
+   Yes
+
+   No
+
+19.    Have in-house and contractor staff who create web content or post it on your website received copies of the Department of Justice’s technical assistance document “Accessibility of State and Local Government Websites to People with Disabilities”?
+
+   Yes
+
+   No
+
+20.    If your website contains inaccessible content, is a specific written plan including timeframes in place now to make all of your existing web content accessible?
+
+   Yes
+
+   No
+
+   N/A - website is completely accessible
+21.    Have you posted on your website a plan to improve website accessibility and invited suggestions for improvements?
+
+   Yes
+
+   No
+
+22.    Does your website home page include easily locatable information, including a telephone number and email address, for use in reporting website accessibility problems and requesting accessible services and information?
+
+   Yes
+
+   No
+
+23.    Do you have procedures in place to assure a quick response to website visitors with disabilities who are having difficulty accessing information or services available via the website?
+
+   Yes
+
+   No
+
+24.    Have you asked disability groups representing people with a wide variety of disabilities to provide feedback on the accessibility of your website? (Note: Feedback from people who use a variety of assistive technologies is helpful in ensuring website accessibility.)
+
+   Yes
+
+   No
+
+25.   Have you tested your website using one of the products available on the Internet to test website accessibility? (Note: Products available for testing website accessibility include no-cost and low-cost options. These products may not identify all accessibility issues and may flag issues that are not accessibility problems. However, they are, nonetheless, a helpful tool in improving website accessibility.)
+
+   Yes
+
+   No
+
+26.    Are alternative ways of accessing web-based information, programs, activities, and services available for people with disabilities who cannot use computers?
 
