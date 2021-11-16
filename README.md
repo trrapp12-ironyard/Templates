@@ -193,6 +193,30 @@ class ToDo extends React.Component {
   
 </details>
 
+<details>
+  <summary>Create a Stateful Component</summary>
+
+```javascript
+class StatefulComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    //notice it's after props we set it.  We use this.state.  We set it equal to an object. In object we use key: value notation.
+    this.state = {
+      name: "Trevor"
+    }
+
+  }
+  render() {
+    return (
+      <div>
+        //notice we call it with this.state.name
+        <h1>{this.state.name}</h1>
+      </div>
+    );
+  }
+};
+```
+</details>
 
 # ADA Considerations 
 
