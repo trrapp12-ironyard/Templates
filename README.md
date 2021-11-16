@@ -235,7 +235,8 @@ class MyApp extends React.Component {
   render() {
     return (
       <div>
-        // Here we give the Navbar a prop of name, and then call this.state.name, since we only need that, in order to pass the value of CamperBot to the NavBar component
+        // Here we give the Navbar a prop of name, and then call this.state.name, 
+        //since we only need that, in order to pass the value of CamperBot to the NavBar component
         <Navbar name={this.state.name} />
       </div>
     );
@@ -249,7 +250,8 @@ class Navbar extends React.Component {
   render() {
     return (
       <div>
-        // Notice we don't use this.state.name.  We access it with this.props Since we passed in the CamperBot state value into the the NavBar component above the h1 element             // below will render the value passed from state
+        // Notice we don't use this.state.name.  We access it with this.props Since we passed in the CamperBot state value 
+        //into the the NavBar component above the h1 element below will render the value passed from state
         <h1>Hello, my name is: {this.props.name}</h1>
       </div>
     );
