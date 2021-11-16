@@ -4,7 +4,7 @@ resource for different code templates
 
 ### HTML template
 
-**this boiler plate was provided by Louis Lazaris at [HTML5 Template: A Basic Boilerplate for Any Project](https://www.sitepoint.com/a-basic-html5-template/)**
+*this boiler plate was provided by Louis Lazaris at [HTML5 Template: A Basic Boilerplate for Any Project](https://www.sitepoint.com/a-basic-html5-template/)*
 
 ```html
 <!doctype html>
@@ -49,7 +49,7 @@ resource for different code templates
 ### Adding React.JS to it (development)
 
 
-**this source comes from the [React Docs](https://reactjs.org/docs/add-react-to-a-website.html).**
+*this source comes from the [React Docs](https://reactjs.org/docs/add-react-to-a-website.html).*
 
 
 ```html 
@@ -78,7 +78,7 @@ resource for different code templates
 
 # ADA Considerations 
 
-**taken from [MDN: CSS and JavaScript accessibility best practices](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)**
+*taken from [MDN: CSS and JavaScript accessibility best practices](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)*
 
 ### Abbreviations 
 
