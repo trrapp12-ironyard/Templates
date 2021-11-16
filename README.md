@@ -261,6 +261,53 @@ class Navbar extends React.Component {
   
 </details>
 
+<details>
+  <summary>Add Event Listeners</summary>
+  
+```javascript
+  
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      message: ""
+    };
+    //create an event handler here to handle enter
+    this.handleEnter = this.handleEnter.bind(this);
+    //create an eventhandler here for keypress which binds "this"
+    this.handleKeyPress = this.handleKeyPress.bind(this);
+  }
+  //componentDidMount() a good method to attach event listeners
+  componentDidMount() {
+    document.addEventListener("keydown", this.handleKeyPress);
+  }
+  //use this to clear eventlistener
+  componentWillUnmount() {
+    document.removeEventListener("keydown", this.handleKeyPress);
+  }
+
+  handleEnter() {
+    this.setState({
+      message: this.state.message + "You pressed the enter key! "
+    });
+  }
+  handleKeyPress(event) {
+    if (event.keyCode === 13) {
+      this.handleEnter();
+    }
+  }
+  render() {
+    return (
+      <div>
+        <h1>{this.state.message}</h1>
+      </div>
+    );
+  }
+}
+```
+  
+</details>
+
 # ADA Considerations 
 
 *taken from [MDN: CSS and JavaScript accessibility best practices](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)*
