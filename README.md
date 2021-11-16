@@ -121,10 +121,11 @@ resource for different code templates
 
 # React
 
-### Adding React.JS to it (development)
 
+<details>
+  <summary>Adding React to Development</summary>
 
-*this source comes from the [React Docs](https://reactjs.org/docs/add-react-to-a-website.html).*
+  *this source comes from the [React Docs](https://reactjs.org/docs/add-react-to-a-website.html).*
 
 
 ```html 
@@ -135,53 +136,72 @@ resource for different code templates
   <!-- replace the "like_button.js" with the file name of the JS file where your React is written. -->
   <script src="like_button.js"></script>
 ```
+  
+</details>
 
-### Adding React (production)
 
-```html
+<details>
+  <summary>Adding React to Production</summary>
+
+  ```html
 <!--add these scripts to the bottom of the page -->
 <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
 ```
+  
+</details>
 
-### Adding React with JSX
-
+<details>
+  <summary>Adding React with JSX</summary>
+  
 ```html
 <!--add this script to the bottom of the page -->
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ```
+  
+</details>
+
 
 # ADA Considerations 
 
 *taken from [MDN: CSS and JavaScript accessibility best practices](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)*
 
-### Abbreviations 
-
+<details>
+  <summary>Abbreviation</summary>
+  
+  
 ```html
 
 <p>Web content is marked up using <abbr title="Hypertext Markup Language">HTML</abbr>.</p>
 
 ```
+  
+  The recognized styling convention for abbreviations is a dotted underline, and it is unwise to significantly deviate from this. For more on abbreviations, 
+  
+</details>
 
-### Emphasized Text
 
-```html
+<details>
+  <summary>Emphasized Text</summary>
+  
+  ```html
 <p>The water is <em>very hot</em>.</p>
 
 <p>Water droplets collecting on surfaces is called <strong>condensation</strong>.</p>
 ```
 
-The recognized styling convention for abbreviations is a dotted underline, and it is unwise to significantly deviate from this. For more on abbreviations, 
+</details>
 
-### Links
-
+<details>
+  <summary>Links</summary>
+  
 ```html
 
 <p>Visit the <a href="https://www.mozilla.org">Mozilla homepage</a>.</p>
 
 ```
-
-The standard link conventions are underlined and a different color (default: blue) in their standard state, another color variation when the link has previously been visited (default: purple), and yet another color when the link is activated (default: red). In addition, the mouse pointer changes to a pointer icon when links are moused over, and the link receives a highlight when focused (e.g. via tabbing) or activated. The following image shows the highlight in both Firefox (a dotted outline) and Chrome (a blue outline):
+  
+  The standard link conventions are underlined and a different color (default: blue) in their standard state, another color variation when the link has previously been visited (default: purple), and yet another color when the link is activated (default: red). In addition, the mouse pointer changes to a pointer icon when links are moused over, and the link receives a highlight when focused (e.g. via tabbing) or activated. The following image shows the highlight in both Firefox (a dotted outline) and Chrome (a blue outline):
 
 
 You can be creative with link styles, as long as you keep giving users feedback when they interact with the links. Something should definitely happen when states change, and you shouldn't get rid of the pointer cursor or the outline — both are very important accessibility aids for those using keyboard controls.
@@ -194,6 +214,8 @@ There are many instances where a visual design will require that not all content
 Screen reader users don't care about any of this — they are happy with the content as long as the source order makes sense, and they can get to it all. Absolute positioning (as used in this example) is generally seen as one of the best mechanisms of hiding content for visual effect, because it doesn't stop screen readers from getting to it.
 
 On the other hand, you shouldn't use visibility:hidden or display:none, because they do hide content from screen readers. Unless of course, there is a good reason why you want this content to be hidden from screen readers.
+
+</details>
 
 
 <details>
