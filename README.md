@@ -92,7 +92,7 @@ div > a > h3 {
 
 ### Specificity 
 
-* this example taken from [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) article [Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/) *
+*this example taken from [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) article [Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)*
 
 ![specificity-calculationbase_rhrovi](https://user-images.githubusercontent.com/11747875/141937727-07286bb4-1909-4913-ab47-57a7c28e6f8f.png)
 
