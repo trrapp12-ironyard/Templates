@@ -167,6 +167,7 @@ resource for different code templates
   ```javascript
   
 const List = props => {
+  //notice that when we define the variable we define the actions taken on it.  Also .tasks must match a tasks added when the element is rendered
   return <p>{props.tasks.join(", ")}</p>;
 };
 
@@ -179,6 +180,7 @@ class ToDo extends React.Component {
       <div>
         <h1>To Do Lists</h1>
         <h2>Today</h2>
+        //notice the array is surrounded by {}
         <List tasks={["Walk", "Cook", "Bake"]} />
         <h2>Tomorrow</h2>
         <List tasks={["Study", "Code", "Eat"]} />
