@@ -218,6 +218,47 @@ class StatefulComponent extends React.Component {
 ```
 </details>
 
+<details>
+  <summary>Pass State as Props to Child Component</summary>
+  
+```javascript
+  
+class MyApp extends React.Component {
+  constructor(props) {
+    super(props);
+    //state is defined within constructor block, after super using "this.state" set equal to an object, then using key, value pairs
+    this.state = {
+      name: "CamperBot",
+      customerId : 856849392
+    };
+  }
+  render() {
+    return (
+      <div>
+        // Here we give the Navbar a prop of name, and then call this.state.name, since we only need that, in order to pass the value of CamperBot to the NavBar component
+        <Navbar name={this.state.name} />
+      </div>
+    );
+  }
+}
+
+class Navbar extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        // Notice we don't use this.state.name.  We access it with this.props Since we passed in the CamperBot state value into the the NavBar component above the h1 element             // below will render the value passed from state
+        <h1>Hello, my name is: {this.props.name}</h1>
+      </div>
+    );
+  }
+}
+```
+  
+</details>
+
 # ADA Considerations 
 
 *taken from [MDN: CSS and JavaScript accessibility best practices](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)*
