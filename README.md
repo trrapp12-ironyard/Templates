@@ -46,6 +46,51 @@ resource for different code templates
 
 # CSS
 
+### Simple Selectors
+
+```
+/* element selector */
+
+p {
+
+}
+/* ID selector */
+
+#id{
+
+}
+
+/* Class selecor  */
+
+.class {
+
+}
+
+/* Attribute selector */
+
+img[src] {
+
+}
+
+/* Pseudo-class selector */
+
+a:hover {
+
+}
+
+/* select multiple elements simmulaneously */ 
+
+p, li, h1 {
+
+}
+
+/* select using increased specificity */ 
+
+div > a > h3 {
+}
+
+
+
 ### Simple Grid layout using Grid CSS
 
 ```html
