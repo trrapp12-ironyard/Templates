@@ -44,6 +44,49 @@ resource for different code templates
 
 ```
 
+# CSS
+
+### Simple Grid layout using Grid CSS
+
+```html
+<style>
+  .item1{background:LightSkyBlue;}
+  .item2{background:LightSalmon;}
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+  .item5{background:PaleGreen;}
+  .item6{background:Yellow;}
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+  /*this sets fractional relationship a column takes.  For example, 1 fr 2fr 1fr would mean the center column is twice as wide as the side columns. */
+    grid-template-columns: 1fr 1fr 1fr;
+  /*this sets fractional relationship a row takes.  For example, 1 fr 2fr 1fr would mean the center column is twice as wide as the side rows. */
+    grid-template-rows: 1fr 1fr 1fr;
+  /*this sets the gap between the columns */
+    grid-gap: 10px;
+  /*this defines the order of the template area.  Note, having the same name repeat vertically or horizontally shows it spans the entire area  */
+    grid-template-areas:
+      "header header header"
+      "content content content"
+      "footer footer footer";
+  }
+</style>
+
+<div class="container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+  <div class="item6">6</div>
+</div>
+```
+
 # React
 
 ### Adding React.JS to it (development)
@@ -146,10 +189,10 @@ On the other hand, you shouldn't use visibility:hidden or display:none, because 
 
 [ ] Have all webpages been designed so they can be viewed using visitors’ web browser and operating system settings for color and font?
 
-Website Accessibility Policy and Procedures
+*Website Accessibility Policy and Procedures*
 
-This section will help you identify potential problems with the ongoing process of
-ensuring website accessibility
+*This section will help you identify potential problems with the ongoing process of
+ensuring website accessibility*
 
 [ ]  Do you have a written policy on website accessibility?
 
