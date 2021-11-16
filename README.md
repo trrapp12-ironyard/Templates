@@ -46,9 +46,9 @@ resource for different code templates
 
 # CSS
 
-### Simple Selectors
+### Selectors
 
-```
+|img
 /* element selector */
 
 p {
@@ -88,6 +88,9 @@ p, li, h1 {
 
 div > a > h3 {
 }
+
+
+for a comprehensive list of selectors see [w3schools CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
 ```
 
 ### Specificity 
