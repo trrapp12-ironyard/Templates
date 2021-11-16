@@ -46,9 +46,10 @@ resource for different code templates
 
 # CSS
 
-### Selectors
-
-| selectors    | example    | description             | combinators         | example       | description                                              |
+<details>
+  <summary>Selectors</summary>
+  
+  | selectors    | example    | description             | combinators         | example       | description                                              |
 |--------------|------------|-------------------------|---------------------|---------------|----------------------------------------------------------|
 | element      | p { }      | selects element         | element element     | div p { }     | selects all p elements inside div elements               |
 | id           | #id { }    | selects by id           | element > element   | div > p { }   | selects all p elements where the parent is a div element |
@@ -60,18 +61,23 @@ resource for different code templates
 |              |            |                         |                     |               |                                                          |
 
 *for a comprehensive list of selectors see [w3schools CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)*
+  
+</details>
 
-
-### Specificity 
-
+<details>
+  <summary>Specificity</summary>
+  
 *this example taken from [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) article [Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)*
 
 ![specificity-calculationbase_rhrovi](https://user-images.githubusercontent.com/11747875/141937727-07286bb4-1909-4913-ab47-57a7c28e6f8f.png)
+  
+</details>
 
 
-### Simple Grid layout using Grid CSS
-
-```html
+<details>
+  <summary>Simple Grid Layout in CSS Grid</summary>
+  
+  ```html
 <style>
   .item1{background:LightSkyBlue;}
   .item2{background:LightSalmon;}
@@ -109,6 +115,9 @@ resource for different code templates
   <div class="item6">6</div>
 </div>
 ```
+
+</details>
+
 
 # React
 
