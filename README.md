@@ -48,50 +48,19 @@ resource for different code templates
 
 ### Selectors
 
-|img
-/* element selector */
+| selectors    | example    | description             | combinators         | example       | description                                              |
+|--------------|------------|-------------------------|---------------------|---------------|----------------------------------------------------------|
+| element      | p { }      | selects element         | element element     | div p { }     | selects all p elements inside div elements               |
+| id           | #id { }    | selects by id           | element > element   | div > p { }   | selects all p elements where the parent is a div element |
+| class        | .class { } | selects by class        | element.class       | div.class { } | selects all elements with a class of "class"             |
+| attribute    | img[src]   | selects by attribute    | element + element   | div + p       | selects the first p element after a div                  |
+| Pseudo-class | a: hover   | selects by pseudo-class | element1 ~ element2 | div ~ p       | selects every p element preceeded by a div               |
+| *            | misc       | selects all elements    | element,element     | div, p        | selects all div elements and all p elements              |
+|              |            |                         |                     |               |                                                          |
+|              |            |                         |                     |               |                                                          |
 
-p {
+*for a comprehensive list of selectors see [w3schools CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)*
 
-}
-/* ID selector */
-
-#id{
-
-}
-
-/* Class selecor  */
-
-.class {
-
-}
-
-/* Attribute selector */
-
-img[src] {
-
-}
-
-/* Pseudo-class selector */
-
-a:hover {
-
-}
-
-/* select multiple elements simmulaneously */ 
-
-p, li, h1 {
-
-}
-
-/* select using increased specificity */ 
-
-div > a > h3 {
-}
-
-
-for a comprehensive list of selectors see [w3schools CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.asp)
-```
 
 ### Specificity 
 
