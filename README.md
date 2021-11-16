@@ -53,6 +53,10 @@ resource for different code templates
   <script src="like_button.js"></script>
 ```
 
+# React
+
+this source comes from the [React Docs](https://reactjs.org/docs/add-react-to-a-website.html).
+
 ### Adding React (production)
 
 ```html
