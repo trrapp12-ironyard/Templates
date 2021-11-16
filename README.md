@@ -187,10 +187,12 @@ Screen reader users don't care about any of this — they are happy with the con
 On the other hand, you shouldn't use visibility:hidden or display:none, because they do hide content from screen readers. Unless of course, there is a good reason why you want this content to be hidden from screen readers.
 
 
-### Accessiblity checklist
-*from [ADA Best Practices Tool Kit for State and Local Governments, Chapter 5 Addendum: Title II Checklist](https://www.ada.gov/pcatoolkit/chap5chklist.htm)
-
-[ ] Does the top of each page with navigation links have a “skip navigation” link? (This feature directs screen readers to bypass the row of navigation links and start at the webpage content, thus enabling people who use screen readers to avoid having to listen to all the links each time they move to a new page.)
+<details>
+  <summary>Accessibility Checklist</summary>
+  
+  *from [ADA Best Practices Tool Kit for State and Local Governments, Chapter 5 Addendum: Title II Checklist](https://www.ada.gov/pcatoolkit/chap5chklist.htm)
+  
+  [ ] Does the top of each page with navigation links have a “skip navigation” link? (This feature directs screen readers to bypass the row of navigation links and start at the webpage content, thus enabling people who use screen readers to avoid having to listen to all the links each time they move to a new page.)
 
 [ ] Do all links have a text description that can be read by a screen reader (not just a graphic or “click here”)?
 
@@ -250,4 +252,14 @@ ensuring website accessibility*
 [ ] Have you tested your website using one of the products available on the Internet to test website accessibility? (Note: Products available for testing website accessibility include no-cost and low-cost options. These products may not identify all accessibility issues and may flag issues that are not accessibility problems. However, they are, nonetheless, a helpful tool in improving website accessibility.)
 
 [ ] Are alternative ways of accessing web-based information, programs, activities, and services available for people with disabilities who cannot use computers?
+
+</details>
+
+
+
+
+
+
+
+
 
