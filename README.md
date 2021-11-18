@@ -122,14 +122,19 @@ resource for different code templates
 
 
 ### falsy values
-
-| false     | false                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0         | the number zero                                                                                                                                                                                                                                                                                                                                                                                                       |
-| ""        | empty string                                                                                                                                                                                                                                                                                                                                                                                                          |
-| NaN       | There are five different types of operations that return NaN:  Number cannot be parsed (e.g. parseInt("blabla") * Number(undefined)) * Math operation where the result is not a real number (e.g. Math.sqrt(-1)) * Operand of an argument is NaN (e.g. 7 ** NaN) Indeterminate form (e.g. 0 * Infinity, or undefined + undefined) * Any operation that involves a string and is not an addition operation (e.g. "foo" / 3) |
-| undefined | undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined. A variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.         |
-| null      | The value null is written with a literal: null. null is not an identifier for a property of the global object, like undefined can be. Instead, null expresses a lack of identification, indicating that a variable points to no object. In APIs, null is often retrieved in a place where an object can be expected but no object is relevant.                                                                        |
+| Falsy Values | Definitions     |
+| false        | false           |
+| 0            | the number zero |
+| ""           | empty string    |
+| NaN          | There are five different types of operations that return NaN:  
+* Number cannot be parsed (e.g. parseInt("blabla") 
+* Number(undefined)) 
+* Math operation where the result is not a real number (e.g. Math.sqrt(-1)) 
+* Operand of an argument is NaN (e.g. 7 ** NaN) Indeterminate form (e.g. 0 
+* Infinity, or undefined + undefined) 
+* Any operation that involves a string and is not an addition operation (e.g. "foo" / 3) |
+| undefined    | undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined. A variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.         |
+| null         | The value null is written with a literal: null. null is not an identifier for a property of the global object, like undefined can be. Instead, null expresses a lack of identification, indicating that a variable points to no object. In APIs, null is often retrieved in a place where an object can be expected but no object is relevant. ||
 
 <details>
   <summary>Break Case Statement</summary>
