@@ -118,6 +118,42 @@ resource for different code templates
 
 </details>
 
+# JavaScript 
+
+
+<details>
+  <summary>Break Case Statement</summary>
+```javascript
+
+function caseInSwitch(val) {
+  let answer = "";
+  //notice val is getting evaluated, so put in (), then use {}
+  switch(val) {
+  //notice syntax is "case" + expected output + ":"
+    case 1:
+  //notice we set the variable to be returned to the value in the ""
+      answer = "alpha"; 
+  //must have break or will evaluate next statement
+      break;
+    case 2:
+      answer = "beta"
+      break;
+    case 3:
+      answer = "gamma"
+      break;
+    case 4:
+      answer = "delta"
+  //notice you can put a default response, like the last "else" of a "if/else" statement
+    default
+      answer = "answer not found"
+  }
+
+  return answer;
+}
+
+caseInSwitch(1);
+```
+</details>
 
 # React
 
