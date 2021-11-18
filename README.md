@@ -197,10 +197,10 @@ sequentialSizes(1);
 
 <details>
   <summary>Short hand return boolean value function</summary>
+  
+  Sometimes people use an if/else statement to do a comparison, like this:
 
 ```javascript
-
-Sometimes people use an if/else statement to do a comparison, like this:
 
 function isEqual(a, b) {
   if (a === b) {
