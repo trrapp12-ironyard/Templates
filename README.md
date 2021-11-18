@@ -120,9 +120,9 @@ resource for different code templates
 
 # JavaScript 
 
-
 <details>
   <summary>Break Case Statement</summary>
+  
 ```javascript
 
 function caseInSwitch(val) {
@@ -152,6 +152,7 @@ function caseInSwitch(val) {
 }
 
 caseInSwitch(1);
+  
 ```
   
 </details>
