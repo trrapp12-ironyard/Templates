@@ -311,6 +311,31 @@ function findGreaterOrEqual(a, b) {
 ```
 
 </details>
+  
+  <details>
+  <summary>Rest Argument</summary>
+    
+    Turns
+
+```javascript
+
+const sum = (x, y, z) => {
+  const args = [x, y, z];
+  return args.reduce((a, b) => a + b, 0);
+}
+
+```
+    
+into 
+    
+```javascript
+    
+const sum = (...args) => args.reduce((a, b) => a + b, 0)
+    
+```
+    
+
+</details>
 
 # React
 
