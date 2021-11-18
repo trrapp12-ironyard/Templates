@@ -315,7 +315,8 @@ function findGreaterOrEqual(a, b) {
   <details>
   <summary>Rest Argument</summary>
     
-    Turns
+    The rest argument is passed into the parameters to show that there may be a variation in the number of parameters that will be passed it.  It may be 1, or 2, or 35...
+    The syntax would turn the first example (which can only receive 3 arguments) into the second (which can receive any number of arguments).
 
 ```javascript
 
@@ -331,6 +332,35 @@ into
 ```javascript
     
 const sum = (...args) => args.reduce((a, b) => a + b, 0)
+    
+```
+    
+
+</details>
+  
+   <details>
+  <summary>Spread Operator</summary>
+    
+  Unlike the rest parameter which "packs" things into an array, the spread operator "unpacks" an array.  So to use it you first have to have 
+     
+     1 - an iterable object (array, map, or set)
+     2 - invoke the syntax
+
+```javascript
+
+const odd = [1,3,5];
+//const odd is the iterable object
+const combined = [2,4,6, ...odd];
+//... says we want to unpack them, then we follow it with the variable name
+console.log(combined);
+
+```
+
+output: 
+    
+```javascript
+    
+[ 2, 4, 6, 1, 3, 5 ]
     
 ```
     
