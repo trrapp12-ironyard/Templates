@@ -219,6 +219,88 @@ function isEqual(a, b) {
 
 </details>
 
+<details>
+  <summary>For Loop</summary>
+
+```javascript
+
+for (let i = 0; i < 5; i++) {
+  ourArray.push(i);
+}
+
+```
+
+</details>
+  
+<details>
+  <summary>Nested for Loop</summary>
+
+```javascript
+
+for (let i = 0; i < arr.length; i++) {
+  for (let j = 0; j < arr[i].length; j++) {
+    console.log(arr[i][j]);
+  }
+}
+
+```
+
+</details>
+  
+  <details>
+  <summary>Backwards For Loop</summary>
+
+```javascript
+
+for (let i = 10; i > 0; i -= 2) {
+  ourArray.push(i);
+}
+
+```
+
+</details>
+  
+  <details>
+  <summary>For Loops with Steps</summary>
+
+```javascript
+
+for (let i = 10; i > 0; i -= 2) {
+  ourArray.push(i);
+}
+
+```
+
+</details>
+  
+<details>
+  <summary>Ternary Operators</summary>
+
+```javascript
+
+function findGreater(a, b) {
+  return a > b ? "a is greater" : "b is greater or equal";
+}
+
+```
+
+</details>
+  
+<details>
+  <summary>Multiple Ternary Operators</summary>
+
+```javascript
+
+function findGreaterOrEqual(a, b) {
+  return (a === b) ? "a and b are equal" 
+    : (a > b) ? "a is greater" 
+    : "b is greater";
+}
+
+```
+
+</details>
+
 # React
 
 
