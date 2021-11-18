@@ -153,7 +153,9 @@ function caseInSwitch(val) {
 
 caseInSwitch(1);
 ```
+  
 </details>
+
 
 # React
 
