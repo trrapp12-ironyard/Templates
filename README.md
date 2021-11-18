@@ -123,6 +123,7 @@ resource for different code templates
 
 ### falsy values
 | Falsy Values | Definitions     |
+|--------------|-----------------|
 | false        | false           |
 | 0            | the number zero |
 | ""           | empty string    |
