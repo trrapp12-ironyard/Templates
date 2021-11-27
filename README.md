@@ -661,39 +661,39 @@ On the other hand, you shouldn't use visibility:hidden or display:none, because 
 *This section will help you identify potential problems with the ongoing process of
 ensuring website accessibility*
 
-[ ]  Do you have a written policy on website accessibility?
+- [x]  Do you have a written policy on website accessibility?
 
-[ ] Is the website accessibility policy posted on your website in a place where it can be easily located?
+- [x] Is the website accessibility policy posted on your website in a place where it can be easily located?
 
-[ ] Have procedures been developed to ensure that content is not added to your website until it has been made accessible?
+- [x] Have procedures been developed to ensure that content is not added to your website until it has been made accessible?
 
-[ ]  Does the website manager check the HTML of all new webpages to confirm accessibility before the pages are posted?
+- [x]  Does the website manager check the HTML of all new webpages to confirm accessibility before the pages are posted?
 
-[ ]  When documents are added to your website in PDF format, are text-based versions of the documents (e.g., HTML, RTF, or word processing format) added at the same time as the PDF versions?
+- [x]  When documents are added to your website in PDF format, are text-based versions of the documents (e.g., HTML, RTF, or word processing format) added at the same time as the PDF versions?
 
-[ ] Have in-house staff and contractors received information about the website accessibility policy and procedures to ensure website accessibility?
-
-
-[ ] Have in-house and contractor staff received appropriate training on how to ensure the accessibility of your website?
-
-[ ]  Have in-house and contractor staff who create web content or post it on your website received copies of the Department of Justice’s technical assistance document “Accessibility of State and Local Government Websites to People with Disabilities”?
-
-[ ]  If your website contains inaccessible content, is a specific written plan including timeframes in place now to make all of your existing web content accessible?
+- [x] Have in-house staff and contractors received information about the website accessibility policy and procedures to ensure website accessibility?
 
 
-[ ] Have you posted on your website a plan to improve website accessibility and invited suggestions for improvements?
+- [x] Have in-house and contractor staff received appropriate training on how to ensure the accessibility of your website?
+
+- [x]  Have in-house and contractor staff who create web content or post it on your website received copies of the Department of Justice’s technical assistance document “Accessibility of State and Local Government Websites to People with Disabilities”?
+
+- [x]  If your website contains inaccessible content, is a specific written plan including timeframes in place now to make all of your existing web content accessible?
 
 
-[ ] Does your website home page include easily locatable information, including a telephone number and email address, for use in reporting website accessibility problems and requesting accessible services and information?
+- [x] Have you posted on your website a plan to improve website accessibility and invited suggestions for improvements?
 
 
-[ ] Do you have procedures in place to assure a quick response to website visitors with disabilities who are having difficulty accessing information or services available via the website?
+- [x] Does your website home page include easily locatable information, including a telephone number and email address, for use in reporting website accessibility problems and requesting accessible services and information?
 
-[ ] Have you asked disability groups representing people with a wide variety of disabilities to provide feedback on the accessibility of your website? (Note: Feedback from people who use a variety of assistive technologies is helpful in ensuring website accessibility.)
 
-[ ] Have you tested your website using one of the products available on the Internet to test website accessibility? (Note: Products available for testing website accessibility include no-cost and low-cost options. These products may not identify all accessibility issues and may flag issues that are not accessibility problems. However, they are, nonetheless, a helpful tool in improving website accessibility.)
+- [x] Do you have procedures in place to assure a quick response to website visitors with disabilities who are having difficulty accessing information or services available via the website?
 
-[ ] Are alternative ways of accessing web-based information, programs, activities, and services available for people with disabilities who cannot use computers?
+- [x] Have you asked disability groups representing people with a wide variety of disabilities to provide feedback on the accessibility of your website? (Note: Feedback from people who use a variety of assistive technologies is helpful in ensuring website accessibility.)
+
+- [x] Have you tested your website using one of the products available on the Internet to test website accessibility? (Note: Products available for testing website accessibility include no-cost and low-cost options. These products may not identify all accessibility issues and may flag issues that are not accessibility problems. However, they are, nonetheless, a helpful tool in improving website accessibility.)
+
+- [x] Are alternative ways of accessing web-based information, programs, activities, and services available for people with disabilities who cannot use computers?
 
 </details>
 
