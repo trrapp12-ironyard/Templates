@@ -634,27 +634,27 @@ On the other hand, you shouldn't use visibility:hidden or display:none, because 
   
   *from [ADA Best Practices Tool Kit for State and Local Governments, Chapter 5 Addendum: Title II Checklist](https://www.ada.gov/pcatoolkit/chap5chklist.htm)
   
-  [ X ] Does the top of each page with navigation links have a “skip navigation” link? (This feature directs screen readers to bypass the row of navigation links and start at the webpage content, thus enabling people who use screen readers to avoid having to listen to all the links each time they move to a new page.)
+- [x] Does the top of each page with navigation links have a “skip navigation” link? (This feature directs screen readers to bypass the row of navigation links and start at the webpage content, thus enabling people who use screen readers to avoid having to listen to all the links each time they move to a new page.)
 
-[ ] Do all links have a text description that can be read by a screen reader (not just a graphic or “click here”)?
+- [x] Do all links have a text description that can be read by a screen reader (not just a graphic or “click here”)?
 
-[ ] Do all of the photographs, maps, graphics and other images on the website currently have HTML tags (such as an “alt” tag or a long description tag) with text equivalents of the material being visually conveyed?
+- [x] Do all of the photographs, maps, graphics and other images on the website currently have HTML tags (such as an “alt” tag or a long description tag) with text equivalents of the material being visually conveyed?
 
-[ ] Are all of the documents posted on your website available in HTML or another text-based format (for example, rich text format (RTF) or word processing format), even if you are also providing them in another format, such as Portable Document Format (PDF)?
+- [x] Are all of the documents posted on your website available in HTML or another text-based format (for example, rich text format (RTF) or word processing format), even if you are also providing them in another format, such as Portable Document Format (PDF)?
 
-[ ]  If your website has online forms, do HTML tags describe all of the controls (including all text fields, check boxes, drop-down lists, and buttons) that people can use in order to complete and submit the forms?
+- [x]  If your website has online forms, do HTML tags describe all of the controls (including all text fields, check boxes, drop-down lists, and buttons) that people can use in order to complete and submit the forms?
 
-[ ]  If your website has online forms, does the default setting in drop-down lists describe the information being requested instead of displaying a response option (e.g., “your age” instead of “18 - 21”)?
+- [x]  If your website has online forms, does the default setting in drop-down lists describe the information being requested instead of displaying a response option (e.g., “your age” instead of “18 - 21”)?
 
-[ ] If a webpage has data charts or tables, is HTML used to associate all data cells with column and row identifiers?
+- [x] If a webpage has data charts or tables, is HTML used to associate all data cells with column and row identifiers?
 
-[ ]   Do all video files on your website have audio descriptions of what is being displayed to provide access to visually conveyed information for people who are blind or have low vision?
+- [x]   Do all video files on your website have audio descriptions of what is being displayed to provide access to visually conveyed information for people who are blind or have low vision?
 
-[ ]  Do all video files on your website have written captions of spoken communication synchronized with the action to provide access to people who are deaf or hard of hearing?
+- [x]  Do all video files on your website have written captions of spoken communication synchronized with the action to provide access to people who are deaf or hard of hearing?
 
-[ ] Do all audio files on your website have written captions of spoken communication synchronized with the action to provide access to people who are deaf or hard of hearing?
+- [x] Do all audio files on your website have written captions of spoken communication synchronized with the action to provide access to people who are deaf or hard of hearing?
 
-[ ] Have all webpages been designed so they can be viewed using visitors’ web browser and operating system settings for color and font?
+- [x] Have all webpages been designed so they can be viewed using visitors’ web browser and operating system settings for color and font?
 
 *Website Accessibility Policy and Procedures*
 
