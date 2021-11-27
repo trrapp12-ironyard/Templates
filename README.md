@@ -305,6 +305,9 @@ for (let i = 10; i > 0; i -= 2) {
 
 function findGreater(a, b) {
   return a > b ? "a is greater" : "b is greater or equal";
+  // the statement before the '?' is what is being evaluated.  
+  // What is between the '?' and the ':' is what is returned if it is true.  
+  // What is to the right of the ':' is what is returned if it's not true.
 }
 
 ```
