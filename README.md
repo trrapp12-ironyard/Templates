@@ -634,7 +634,7 @@ On the other hand, you shouldn't use visibility:hidden or display:none, because 
   
   *from [ADA Best Practices Tool Kit for State and Local Governments, Chapter 5 Addendum: Title II Checklist](https://www.ada.gov/pcatoolkit/chap5chklist.htm)
   
-  [x] Does the top of each page with navigation links have a “skip navigation” link? (This feature directs screen readers to bypass the row of navigation links and start at the webpage content, thus enabling people who use screen readers to avoid having to listen to all the links each time they move to a new page.)
+  [ x ] Does the top of each page with navigation links have a “skip navigation” link? (This feature directs screen readers to bypass the row of navigation links and start at the webpage content, thus enabling people who use screen readers to avoid having to listen to all the links each time they move to a new page.)
 
 [ ] Do all links have a text description that can be read by a screen reader (not just a graphic or “click here”)?
 
