@@ -131,6 +131,19 @@ resource for different code templates
 | undefined    | undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined. A variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned. |
 | null         | The value null is written with a literal: null. null is not an identifier for a property of the global object, like undefined can be. Instead, null expresses a lack of identification, indicating that a variable points to no object. In APIs, null is often retrieved in a place where an object can be expected but no object is relevant. ||
 
+
+### Escape Line characters
+|Code          |      Output    |
+|--------------|----------------|
+| ``` \' ```	 | single quote   |
+| ``` \" ```	 | double quote   |
+| ``` \\ ```	 | backslash      |
+| ``` \n ```	 | newline        |
+| ``` \r	```  | carriage return|
+| ``` \t	```  | tab            |
+| ``` \b	```  | word boundary  |
+|``` \f	```    | form feed      |
+
 <details>
   <summary>Break Case Statement</summary>
   
