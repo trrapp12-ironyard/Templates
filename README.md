@@ -277,7 +277,7 @@ for (let i = 0; i < arr.length; i++) {
 
 ```javascript
 
-for (let i = 10; i > 0; i -= 2) {
+for (let i = 10; i > 0; i--) {
   ourArray.push(i);
 }
 
